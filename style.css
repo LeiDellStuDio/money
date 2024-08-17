@@ -1,0 +1,18 @@
+body{background-image:url("xiaomaibj.png");background-color:#F5F5F5;background-position:center;background-repeat:no-repeat;background-size:cover;font-family:Lexend,"Noto Sans SC"}
+.container{background-color: rgba(255, 255, 255, 0.9);width:60%;margin:5% auto 0;padding:2% 7%;border-radius:50px}
+.container2{background-color: rgba(255, 255, 255, 0.9);width:60%;margin:1% auto 0;padding:1% 7%;border-radius:50px}
+ul{padding-left:20px}
+ul li{line-height:2.3;list-style:none}
+.sakana{opacity:1}
+.text-align{text-align:center}
+h1{text-align:center;font-size:260%}
+.mint1{display:flex;justify-content:center;align-items:center}
+@media (orientation:portrait){.mint1{flex-direction:column}.mint1 img{width:70%;height:auto}h1{font-size: 80%;}h1{font-size: 210%;}}
+a{color:black;transition: color 0.2s;text-decoration:none}
+a:hover{color:rgb(0, 0, 0, 0.5);text-decoration:none}
+@font-face {
+    font-family:HarmonyOS_Sans_SC_Medium;font-style: normal;font-display: swap;
+    src: url('https://cdn.jsdmirror.com/gh/leidellstudio/cssrjs/HarmonyOS_Sans_SC_Medium.woff2') format('woff2'),
+    url('https://cdn.jsdmirror.com/gh/leidellstudio/cssrjs/HarmonyOS_Sans_SC_Medium.woff') format('woff');
+ }
+    *{font-family:HarmonyOS_Sans_SC_Medium;}
